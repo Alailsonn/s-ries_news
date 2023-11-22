@@ -1,0 +1,80 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url(https://pisces.bbystatic.com/image2/BestBuy_US/images/products/858ed052-1a3c-4148-b2ba-b4579be850b7.jpg;maxHeight=640;maxWidth=550);
+    color: white;
+}
+
+
+ul {
+    list-style: none;
+    padding-left: 5px;
+    
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding-bottom: 4%;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.bar {
+
+    border-top: solid 1px #941919;
+    border-bottom: solid 1px #8a0e0e;
+}
+
+.content {
+    max-width: 1440px;
+    margin: auto;
+    grid-gap: 3rem;
+    display: grid;
+    gap: 3rem;
+    grid-template-areas: "sidebar main anchors";
+    grid-template-columns: minmax(0, 15rem) minmax(0, 2.5fr) minmax(0, 15rem);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+
+.link {
+
+    padding-bottom: 1rem;
+    color: white;
+    font-size: 20px;
+}
+
+.temporadas {
+    background-color: rgb(99, 89, 102);
+    border-radius: 8px;
+
+}
+
+p {
+    padding-bottom: 1rem;
+
+}
+
+.footer {
+    min-height: 100px;
+    border-top: solid 1px #131212;
+    text-align: center;
+}
+
+.anchors {
+    border-left: solid 1px #cdcdcd;
+    padding-left: 15px;
+}
+
+.sidebar {
+    border-right: solid 1px #cdcdcd;
+}
+
+figure {
+    text-align: center;
+}
